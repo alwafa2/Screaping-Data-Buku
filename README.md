@@ -5,9 +5,8 @@ Proyek ini bertujuan untuk melakukan web scraping data buku dari situs [Gramedia
 ## 🛠️ Teknologi yang Digunakan
 
 - **Python 3**: Bahasa pemrograman utama.
-- **Requests**: Untuk melakukan permintaan HTTP ke situs target.
-- **BeautifulSoup**: Untuk mem-parsing dan mengekstrak data dari HTML.
-- **CSV**: Untuk menyimpan data hasil scraping.
+- **pandas**: Untuk memproses data, khususnya data terstruktur dalam bentuk tabel.
+- **Selenium**: Untuk mem-parsing dan mengekstrak data dari HTML.
 
 ## 📄 Fitur
 
@@ -52,7 +51,6 @@ Proyek ini bertujuan untuk melakukan web scraping data buku dari situs [Gramedia
 Screaping-Data-Buku/
 ├── data/               # Folder untuk menyimpan file CSV hasil scraping
 ├── main.py             # Skrip utama untuk melakukan scraping
-├── requirements.txt    # Daftar dependensi Python
 └── README.md           # Dokumentasi proyek
 ```
 
